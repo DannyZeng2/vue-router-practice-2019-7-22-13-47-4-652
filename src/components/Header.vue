@@ -16,7 +16,7 @@ export default {
     };
   },
   methods: {
-    add(todoItem) {
+    add() {
       if (this.todoItem == undefined || this.todoItem == "") {
         return;
       }

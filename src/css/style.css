@@ -28,6 +28,16 @@
     height:38px;
     background-color: #fc999a;
 }
+
+#inputBtn{
+    color: white;
+    font-size: 15px;
+    border-radius:10px;
+    border: none;
+    width:80px;
+    height:38px;
+    background-color: #fc999a;
+}
 #additem{
     width:350px;
     height:30px;
@@ -75,3 +85,36 @@ span{
     font-size: 15px;
     color: #fc999a;
 } 
+
+#maindiv {
+    text-align: center;
+    margin-top:200px;
+}
+
+#welcomediv{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+#todorouter{
+    margin-top:100px;
+    margin-left:20px;
+}
+
+#profile{
+  
+    margin-left:600px;
+    width:300px;
+    height: 300px;
+    background-color: #fc999a;
+    display: -moz-box;/*兼容Firefox*/
+    display: -webkit-box;/*兼容FSafari、Chrome*/
+
+    -moz-box-align: center;/*兼容Firefox*/
+    -webkit-box-align: center;/*兼容FSafari、Chrome */
+
+    -moz-box-pack: center;/*兼容Firefox*/
+    -webkit-box-pack: center;/*兼容FSafari、Chrome */
+
+}
+
