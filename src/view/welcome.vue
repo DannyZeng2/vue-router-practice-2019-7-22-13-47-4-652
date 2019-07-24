@@ -2,8 +2,9 @@
   <div>
     <!-- <span>Welcome</span> -->
     <div id = "maindiv">
-      <input id="additem" placeholder="请输入姓名" type="text" v-model="name" />&nbsp;
-      <button id="inputBtn" @click="goToHome">开始使用</button>
+      <a-input id="additem" placeholder="请输入姓名" type="text" v-model="name" />&nbsp;
+      <a-button id="inputBtn" @click="goToHome">开始使用</a-button>
+      
     </div>
   </div>
 </template>
